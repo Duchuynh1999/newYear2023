@@ -9,7 +9,7 @@ const now = new Date();
 
 newYear.innerHTML = now.getFullYear();
 
-const countToDate = new Date("2023, 01, 22, 19:22:00").getTime();
+const countToDate = new Date("2023, 01, 22, 00:00:00").getTime();
 
 const countdown = () => {
   const now = new Date().getTime();
